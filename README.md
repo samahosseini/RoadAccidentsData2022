@@ -24,13 +24,13 @@ Casualty_Home_Area_Type: The type of area in which the casualty resides (e.g., u
 Casualty_IMD_Decile: The IMD decile of the area where the casualty resides (a measure of deprivation).
 LSOA_of_Casualty: The Lower Layer Super Output Area (LSOA) associated with the casualty's location.
 Project Structure
-data/: Contains the dataset files.
+data/: (https://www.kaggle.com/datasets/juhibhojani/road-accidents-data-2022?resource=download)
 notebooks/: Jupyter notebooks for data analysis and modeling.
 src/: Source code files for data preprocessing, modeling, and evaluation.
 README.md: Overview and instructions for the project.
 Getting Started
 Clone the repository:
-git clone https://github.com/sama/road-accidents-analysis.git
+git clone https://github.com/samahosseini/road-accidents-analysis.git
 pip install -r requirements.txt
 
 Follow the Notebook:
