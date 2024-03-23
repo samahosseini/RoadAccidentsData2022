@@ -28,6 +28,7 @@ The dataset encompasses the following columns:
 - LSOA_of_Casualty: The Lower Layer Super Output Area (LSOA) associated with the casualty's location.
 
 Project Structure
+<<<<<<< HEAD
 -----------------
 
 ### Data Collection
@@ -49,11 +50,17 @@ Feature importance analysis was conducted on the logistic regression model to id
 The results highlighted significant findings from the analysis, indicating correlations between different factors and casualty severity. For instance, casualty class, age, and area type were identified as correlated with casualty severity. Recommendations for accident reduction and road safety enhancement were proposed based on the insights derived from the analysis.
 
 
+=======
+data/: (https://www.kaggle.com/datasets/juhibhojani/road-accidents-data-2022?resource=download)
+notebooks/: Jupyter notebooks for data analysis and modeling.
+src/: Source code files for data preprocessing, modeling, and evaluation.
+README.md: Overview and instructions for the project.
+>>>>>>> a55ef6a4b180cb0a2393dac6b404c7aaca5b22c9
 Getting Started
 ---------------
 
 Clone the repository:
-git clone https://github.com/sama/road-accidents-analysis.git
+git clone https://github.com/samahosseini/road-accidents-analysis.git
 pip install -r requirements.txt
 
 Follow the Notebook:
